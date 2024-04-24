@@ -1,70 +1,97 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+// import bcrypt from "bcryptjs";
+import chatImage from "./farmer.jpg";
 
-const Register=(props)=>{
-    let history = useNavigate();
-    const [data, setData]=useState({
-        email:"",
-        password:""
-    }) 
+const Register = () => {
+  const history = useNavigate();
+  const [data, setData] = useState({
+    username: "",
+    password: "",
+    confirmPassword: ""
+  });
 
-    const handleChange=(e)=>{
-        setData({ ...data, [e.target.name]: e.target.value });
-        //console.log(data)
+  const [error, setError] = useState("");
+
+  const handleChange = (e) => {
+    setData({ ...data, [e.target.name]: e.target.value });
+  };
+
+  const validatePassword = () => {
+    if (data.password !== data.confirmPassword) {
+      setError("Passwords do not match");
+      return false;
     }
+    return true;
+  };
 
-    const submitForm=(e)=>{ 
-        e.preventDefault();
-        const sendData={
-            email:data.email,
-            password:data.password
-        }
-        
+  const submitForm = (e) => {
+    e.preventDefault();
+    if (!validatePassword()) return;
 
-        axios.post('http://localhost/govbotreactphp/insert.php',sendData)
-        .then((result)=>{
-            if(result.data.Status === 'Invalid') {
-                alert('Invalid User');
-            }
-            else {
-                history('/login');
-            }
-        })
-    }
+    // const hashedPassword = bcrypt.hashSync(data.password.toLowerCase(), 10);
 
-    return(
-        <div className="main-box">
-            <form onSubmit={submitForm}>
-            <div className="row">
-                <div className="col-md-12 text-center">
-                    <h1>Register</h1>
-                </div>
-                <div className="row">
-                    <div className="col-md-6">Email</div>
-                    <div className="col-md-6">
-                        <input type="text" name="email" className="form-control"
-                        onChange={handleChange} value={data.email}
-                        />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-6">Password</div>
-                    <div className="col-md-6">
-                        <input type="password" name="password" className="form-control"
-                        onChange={handleChange} value={data.password}
-                        />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-6 text-center">
-                        <input type="submit" name="submit" value="Register" className="btn btn-success"/>
-                    </div>
-                </div>
+    const sendData = {
+        username: data.username,
+        password: data.password
+    };
+
+    axios.post('http://localhost/govbotreactphp/insert.php', sendData)
+      .then((result) => {
+        console.log(result);
+        if (result.data.status === 'valid') {
+            history('/login');
+          } else {
+            setError("Invalid User");
+          }
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+        alert('An error occurred. Please try again.');
+      });
+  };
+
+  return (
+    <div className="main-box">
+      <div className="image-container">
+        <img src={chatImage} alt="Registration" />
+      </div>
+      <form onSubmit={submitForm} className="form-container">
+        <div className="row">
+          <div className="col-md-12 text-center">
+            <h1>Register</h1>
+          </div>
+          <div className="row">
+            <div className="col-md-6">Username</div>
+            <div className="col-md-6">
+              <input type="text" name="username" className="form-control" onChange={handleChange} value={data.username} />
             </div>
-            </form>
+          </div>
+          <div className="row">
+            <div className="col-md-6">Password</div>
+            <div className="col-md-6">
+              <input type="password" name="password" className="form-control" onChange={handleChange} value={data.password} />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6">Confirm Password</div>
+            <div className="col-md-6">
+              <input type="password" name="confirmPassword" className="form-control" onChange={handleChange} value={data.confirmPassword} />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6 text-center">
+              <input type="submit" name="submit" value="Register" className="btn btn-success" />
+            </div>
+          </div>
+
+          {error && <div className="row"><div className="col-md-12 text-center text-danger">{error}</div></div>}
+
         </div>
-        
-    )
-}
+      </form>
+    </div>
+  );
+};
+
 export default Register;
