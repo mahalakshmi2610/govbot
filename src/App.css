@@ -1,56 +1,110 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Include padding and borders in the element's total width and height */
-  }
-  
-  .nav-div {
-    /* background: linear-gradient(135deg, #ff9933, #ff9e3d 33.33%, #fff 33.33%, #fff 66.66%, #138808 66.66%); */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  }
-  
-  #navbarText {
-    color: rgb(0, 0, 0);
-    font-size: 21px;
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .btn {
-    margin-left: 10px;
-    padding: 8px 12px;
-    background-color: #ccf29b;
-    color: rgb(72, 0, 0);
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-  }
-  
-  .btn:hover {
-    background-color: #88d3f4; /* Indian flag green */
-    color: white;
-  }
-  
-  .main-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px; 
-  }
-  
-  .image-container {
-    flex: 1;
-    padding: 20px 0;
-  }
-  
-  .form-container {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    padding-top: 100px; 
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and borders in the element's total width and height */
+}
+
+.nav-div {
+  /* background: linear-gradient(135deg, #ff9933, #ff9e3d 33.33%, #fff 33.33%, #fff 66.66%, #138808 66.66%); */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#navbarText {
+  color: rgb(0, 0, 0);
+  font-size: 21px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.outer-box{
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(20, 0, 0, 0.1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1px 50px 50px 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #ccfdb4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+#regId {
+  text-align: center;
+}
+
+.form-group label {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #308e30;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
