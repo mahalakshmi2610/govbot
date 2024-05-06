@@ -14,7 +14,7 @@ function Login() {
     axios.post('http://localhost/govbotreactphp/login.php',data)
       .then((response) => {
         if (response.data.status === 'success') {
-            history('/chatbot'); // Redirect to chatbot component
+            history('/menubot'); // Redirect to chatbot component
         } else {
             console.error('Login Error:', response.data.message);
             alert('Login failed. Please try again.');
