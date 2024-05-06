@@ -1,0 +1,850 @@
+{
+    "intents": [
+      {
+        "tag": "education",
+        "patterns": ["Education"],
+        "responses": ["Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme\n Tamil Nadu Chief Minister's Fellowship Programme"]
+      },
+      {
+        "tag": "descmoovalur",
+        "patterns": ["Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme"],
+        "responses": ["The scheme Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme was launched by the Department of Social Welfare & Women Empowerment, Government of Tamil Nadu. This scheme is also called the Pudhumai Penn Scheme and has been launched to enhance the enrolment ratio of girls from Government schools to Higher Education Institutions."]
+      },
+      {
+        "tag":"eligibilitymoovalur",
+        "patterns":["Eligibility of Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme"],
+        "responses":["1.The applicant should be residing in the state of Tamil Nadu. 2.The applicant should be a student. 3.The applicant should be a female to avail of benefits from this scheme. 4.All girl students who studied from Classes 6th to 12th in Government schools of Tamil Nadu are eligible to apply under the scheme. 5.The assistance can be extended to any number of girl students in a family pursuing higher education at recognized Institutions/Colleges/Universities. 6.The girl students should pursue their education in recognized courses and colleges/universities. 7.Only the first course of higher education will be considered as an eligible factor."]
+      },
+      {
+        "tag":"benefitmoovalur",
+        "patterns":["Benefits of Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme"],
+        "responses":["1.All girl students who studied from Classes 6th to 12th in Government schools will be paid Rs.1,000/- per month till the completion of their undergraduate degree, diploma, ITI, and any other recognized course. 2.The assistance amount under this scheme will be disbursed directly into the student's Bank Account. 3.The students shall be eligible for this in addition to other scholarships."]
+      },
+      {
+        "tag": "desccm",
+        "patterns": ["Tamil Nadu Chief Minister's Fellowship Programme"],
+        "responses": ["The Government of Tamil Nadu has introduced the two-year Tamil Nadu Chief Minister's Fellowship Programme (TNCMFP), starting from 2022-23. It aims to harness the energy and talent of young professionals to optimize the governance processes and enhance the service delivery of various programmes and policies in Tamil Nadu."]
+      },
+      {
+        "tag":"eligibilitycm",
+        "patterns":["Eligibility of Tamil Nadu Chief Minister's Fellowship Programme"],
+        "responses":["1. A candidate must hold a first-class in Bachelor's degree in respect of Professional Courses (Engineering, Medicine, Law, Agriculture, Veterinary Science) or a first-class in Master's degree in Arts/Science from any of the Universities incorporated by an Act of the Central or State Legislature in India or other educational institutions established by an Act of Parliament or declared to be deemed as a University under Section 3 of the University Grants Commission Act, 1956 or possess an equivalent qualification. 2.Working knowledge of Tamil is mandatory for the candidate. 3.Age Limit: The applicant's age shall be between 22-30 years as on 25.05.2022. For candidates belonging to the SC/ST category, the maximum age limit shall be 35 years, and for candidates belonging to the BC/MBC category, it shall be 33 years."]
+      },
+      {
+        "tag":"benefitcm",
+        "patterns":["Benefits of Tamil Nadu Chief Minister's Fellowship Programme"],
+        "responses":["Under this fellowship programme, a monthly stipend of Rs.65,000/- and an additional allowance of Rs.10,000/- to meet their incidental expenses in performing their assigned work, such as travel, mobile phone, data usage, etc."]
+      },
+      {
+        "tag":"socialwelfare",
+        "patterns":["Social Welfare"],
+        "responses": ["Dr. Dharmambal Ammaiyar Ninaivu Widow Remarriage Assistance Scheme-I\nAnnai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls-I\nChief Minister's Girl Child Protection Scheme-I\nAnnai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls-II\nDr. Muthulakshmi Reddy Ninaivu Inter-caste Marriage Assistance Scheme-II\nScheme of Extending Family Maintenance Grant to the Families of the Deceased Famous Artists\nConcession in Railway Travel\nLiving Craft Treasure Award\nUnemployment Allowance to Differently Abled Persons\nMarriage Assistance to Normal Persons Marrying Speech and Hearing Impaired Persons\nModified Special Wheel Chairs for Persons Affected with Cerebral Palsy\nMarriage Assistance to Differently Abled Persons Marrying Differently Abled Persons\nChief Minister Breakfast Scheme\nAmma Two Wheeler Scheme for Working Women\nIndira Gandhi National Disability Pension Scheme - Tamil Nadu\nIndira Gandhi National Widow Pension Scheme - Tamil Nadu\nSathiyavanimuthu Ammaiyar Ninaivu Free Supply of Sewing Machine Scheme\nIndira Gandhi National Old Age Pension Scheme -Tamil Nadu\nDr. Dharmambal Ammaiyar Ninaivu Widow Remarriage Assistance Scheme-II\nDistress Relief Scheme\nScheme of Extending Grants for the Publication of Rare Books on Arts\nScheme of Awarding Porkizhi to the Indigent Kalaimamani Awardee Artists\nFinancial Assistance to Meet the Funeral Expenses of Differently Abled Person\nMarriage Assistance Scheme for Individuals Marrying Visually Impaired Persons"]
+      },
+      {
+        "tag": "dharmadetails",
+        "patterns": ["Dr. Dharmambal Ammaiyar Ninaivu Widow Remarriage Assistance Scheme-I"],
+        "responses": ["The \"Dr. Dharmambal Ammaiyar Ninaivu Widow Remarriage Assistance Scheme\" was launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu. The scheme's objective is to encourage widow remarriage and to rehabilitate widows by giving financial assistance along with 1 sovereign (8gm) 22-carat gold coin. Interested applicants should apply Offline or via CSC."]
+      },
+      {
+          "tag": "dharmabenefit",
+          "patterns": ["Benefits of Dr. Dharmambal Ammaiyar Ninaivu Widow Remarriage Assistance Scheme-I"],
+          "responses": ["Financial Assistance of Rs. 25,000/-. One sovereign (8gm) 22-carat gold coin for making Thirumangalyam."]
+      },
+      {
+          "tag": "dharmaeligibility",
+          "patterns": ["Eligibility of Dr. Dharmambal Ammaiyar Ninaivu Widow Remarriage Assistance Scheme-I"],
+          "responses": ["The applicant should be a widow. The bride (widow) should be 20 years or above in age. The bridegroom should be less than 40 years or above in age."]
+      },
+      {
+        "tag": "detailsteresa",
+        "patterns": ["Annai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls-I"],
+        "responses": ["The 'Annai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls-I' was launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu. The scheme provides financial assistance to the orphan girls for their marriage. The bride should have completed 18 years of age at the time of marriage."]
+      },
+      {
+        "tag": "benefitsteresa",
+        "patterns": ["Benefits of Annai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls-I"],
+        "responses": ["Financial assistance of Rs. 25,000/-. One sovereign (8gm) 22-carat gold coin for making Thirumangalyam. Mode of Disbursal: Through Electronic Clearing Service."]
+      },
+      {
+        "tag": "eligibilityteresa",
+        "patterns": ["Eligibility of Annai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls-I"],
+        "responses": ["The applicant should be a girl. The applicant should be an orphan. The bride should be 18 years or above at the time of marriage."]
+      },
+      {
+        "tag": "descgirl",
+        "patterns": ["Chief Minister's Girl Child Protection Scheme-I"],
+        "responses": ["The 'Chief Minister's Girl Child Protection Scheme-I' was launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu. The scheme aims to provide financial assistance to girl children of poor families as well as to promote girl child education, small family norms, increase the child sex ratio, discourage the preference for male child & eradicate female infanticide."]
+        },
+        {
+        "tag": "benefitgirl",
+        "patterns": ["Benefits of Chief Minister's Girl Child Protection Scheme-I"],
+        "responses": ["A fixed deposit (FD) of Rs. 50,000/- in the name of the girl child (A copy of the FD receipt is given to the family). Renewal of FD after five years. An annual incentive of Rs. 1,800/- from the 6th year of the FD. The amount deposited along with accrued interest is given to the girl child when she attains 18 years of age. NOTE: The matured amount will be given to the girl child only if she appears for the 10th standard public exam."]
+        },
+        {
+        "tag": "eligibilitygirl",
+        "patterns": ["Eligibility of Chief Minister's Girl Child Protection Scheme-I"],
+        "responses": ["The assistance is provided only for one girl child of the family. The annual income of the parents of the girl child should not exceed Rs. 72,000/-. One of the parents must have undergone sterilization before turning 40 years old. The family should have only one female child and no male child. In the future, no male child should be adopted. The parents/grandparents should be a native of Tamil Nadu by birth or continuous residence of not less than ten years at the time of applying to this scheme. The scheme is also applicable to the girl children of Sri Lankan Tamil Refugees in the Refugee Camps in Tamil Nadu."]
+        },
+        {
+        "tag": "descorphan",
+        "patterns": ["Annai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls-II"],
+        "responses": ["The 'Annai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls-II' was launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu. The scheme provides financial assistance to orphan girls for their marriage. The bride should have completed 18 years of age at the time of marriage."]
+        },
+        {
+        "tag": "benefitorphan",
+        "patterns": ["Benefits of Annai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls-II"],
+        "responses": ["Financial assistance of Rs. 25,000/-. One sovereign (8gm) 22-carat gold coin for making Thirumangalyam. Mode of Disbursal: Through Electronic Clearing Service."]
+        },
+        {
+        "tag": "eligibilityorphan",
+        "patterns": ["Eligibility of Annai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls-II"],
+        "responses": ["The applicant should be a girl. The applicant should be an orphan. The bride should be 18 years or above at the time of marriage. The applicant should have a degree passed from regular colleges, distance education/government-recognized open university. The applicant should have a diploma passed from the Institution recognized by the Directorate of Technical Education, Government of Tamil Nadu."]
+        },
+        {
+        "tag": "descintercaste",
+        "patterns": ["Dr. Muthulakshmi Reddy Ninaivu Inter-caste Marriage Assistance Scheme"],
+        "responses": ["The 'Dr. Muthulakshmi Reddy Ninaivu Inter-caste Marriage Assistance Scheme' was launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu. The scheme's objective is to abolish caste and community discrimination by encouraging inter-caste marriage by giving financial assistance to newly married couples of whom one spouse is from other community (Forward Community) and the other from the Backward Class / Most Backward Class Community."]
+        },
+        {
+        "tag": "benefitintercaste",
+        "patterns": ["Benefits of Dr. Muthulakshmi Reddy Ninaivu Inter-caste Marriage Assistance Scheme"],
+        "responses": ["Financial assistance of Rs. 50,000 given to the newly married couple. One sovereign (8 gm) 22-carat gold coin for making Thirumangalyam. Mode of Disbursal: Rs. 30,000 through Electronic Clearing Service and Rs. 20,000 in the form of National Savings Certificate."]
+        },
+        {
+        "tag": "eligibilityintercaste",
+        "patterns": ["Eligibility of Dr. Muthulakshmi Reddy Ninaivu Inter-caste Marriage Assistance Scheme"],
+        "responses": ["The couple should belong to a backward class / most backward class community. The bride should have passed the 10th standard. The bride should have studied up to Vth standard in the case of the scheduled tribe. The age of the bride should be above 18 years at the time of marriage. The bride should have a degree passed from regular colleges, distance education/government-recognized open university. The applicant should have a diploma holder passed from the Institution recognized by the Directorate of Technical Education, Government of Tamil Nadu."]
+        },
+        {
+          "tag": "descmaintenancegrant",
+          "patterns": ["Scheme of Extending Family Maintenance Grant to the Families of the Deceased Famous Artists"],
+          "responses": ["The 'Scheme of Extending Family Maintenance Grant to the Families of the Deceased Famous Artists' was launched by the Art and Culture Department, Government of Tamil Nadu. The objective of the scheme is to provide a one-time maintenance grant of Rs. 25,000/- to the families of deceased famous artists of the art disciplines of music, drama, dance, film, and folk arts."]
+          },
+          {
+          "tag": "benefitmaintenancegrant",
+          "patterns": ["Benefits of Scheme of Extending Family Maintenance Grant"],
+          "responses": ["Financial Assistance of Rs. 25,000/-."]
+          },
+          {
+          "tag": "eligibilitymaintenancegrant",
+          "patterns": ["Eligibility of Scheme of Extending Family Maintenance Grant"],
+          "responses": ["The deceased should have been a famous artist in the art disciplines of music/ drama/ dance/ film/ folk arts. The benefit of the scheme will be given only on the death of the famous artist. The applicant should be the legal heir of the deceased."]
+          },
+          {
+          "tag": "desctravelconcession",
+          "patterns": ["Concession in Railway Travel"],
+          "responses": ["The scheme 'Concession in Railway Travel' was launched by the Department of Art and Culture, Tamil Nadu. Under the scheme, individual artists and troupes consisting of more than three artists are allowed to travel in the train on concession by the Railways. A concession certificate will be issued by the Mandram."]
+          },
+          {
+          "tag": "benefittravelconcession",
+          "patterns": ["Benefits of Concession in Railway Travel"],
+          "responses": ["75% concession in Second Class Fare. 50% concession in First Class Fare."]
+          },
+          {
+          "tag": "eligibilitytravelconcession",
+          "patterns": ["Eligibility of Concession in Railway Travel"],
+          "responses": ["The applicant should be an individual artist or a troupe consisting of more than three artists. The applicant should undertake the journey by train. The purpose of the journey should be to deliver a cultural performance (public programme) in the outstation. The distance between the place from which the cultural troupe is to start and the place of performance should be beyond 300 km as fixed by the Indian Railways."]
+          },
+          {
+          "tag": "desclivingcraftaward",
+          "patterns": ["Living Craft Treasure Award"],
+          "responses": ["The 'Living Craft Treasure Award' scheme was launched by the Handlooms, Handicrafts, Textiles, and Khadi Department, Government of Tamil Nadu. This is the highest award for handicrafts at the state level, introduced in the year 2013-2014, for craftspeople of eminence who are above the age of 65 years. This award consists of a cash prize of Rs.1.00 lakh, a thamirapattiram, an 8-gram gold medal, and a certificate. The award is granted yearly."]
+          },
+          {
+          "tag": "benefitlivingcraftaward",
+          "patterns": ["Benefits of Living Craft Treasure Award"],
+          "responses": ["Cash Prize of Rs. 1,00,000/-. Thamirapattiram. 8-gram Gold Medal. Certificate."]
+          },
+          {
+          "tag": "eligibilitylivingcraftaward",
+          "patterns": ["Eligibility of Living Craft Treasure Award"],
+          "responses": ["The applicant should be an artisan. The applicant should be a native of Tamil Nadu. The applicant should be working in the handicraft industry in Tamil Nadu. The applicant should be 65 years of age or above. The experience of the craftsman and the service he has rendered in his profession's special features will be taken into consideration during selection."]
+          },
+          {
+          "tag": "descunemploymentallowance",
+          "patterns": ["Unemployment Allowance Scheme for Differently Abled Persons"],
+          "responses": ["The Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu, has implemented the 'Unemployment Allowance Scheme for Differently Abled Persons.' This initiative aims to provide targeted financial support to registered job seekers with disabilities who have been actively seeking employment through the employment exchange for a minimum of one year. Recognizing the distinct challenges faced by this population group in securing suitable employment, the program seeks to alleviate the economic burdens associated with unemployment and foster self-sufficiency during their job search. This intervention ultimately contributes to a more inclusive workforce by empowering differently-abled individuals to actively pursue their career goals."]
+          },
+          {
+          "tag": "benefitunemploymentallowance",
+          "patterns": ["Benefits of Unemployment Allowance Scheme for Differently Abled Persons"],
+          "responses": ["For SSLC (Secondary School Leaving Certificate) and below: Rs. 600/- per month. For Higher Secondary Course: Rs. 750/- per month. For Degree and above: Rs. 1,000/- per month."]
+          },
+          {
+          "tag": "eligibilityunemploymentallowance",
+          "patterns": ["Eligibility of Unemployment Allowance Scheme for Differently Abled Persons"],
+          "responses": ["The applicant should be differently abled. The applicant should be unemployed. The applicant should have an education certificate, diploma, or degree. The applicant must be registered with the employment exchange for more than one year. The status of the registered applicant should be shown live in the employment exchange."]
+          },
+          {
+          "tag": "descmarriageassistanceSpeechandHearing",
+          "patterns": ["Marriage Assistance Program for Individuals Marrying Speech and Hearing Impaired Persons"],
+          "responses": ["The Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu, has implemented the 'Marriage Assistance Program for Individuals Marrying Speech and Hearing Impaired Persons.' This initiative aims to provide financial assistance to individuals who are not speech or hearing impaired and choose to marry someone who is, recognizing the potential economic challenges associated with such marriages. This program seeks to alleviate these burdens and empower couples to embark on their married life with greater financial stability."]
+          },
+          {
+          "tag": "benefitmarriageassistanceSpeechandHearing",
+          "patterns": ["Benefits of Marriage Assistance Program for Individuals Marrying Speech and Hearing Impaired Persons"],
+          "responses": ["Marriage assistance amount: Rs. 25,000/-, consisting of Rs. 12,500/- National Savings Certificate and Rs. 12,500/- cheque/Demand Draft for marriage expenses. Additional benefit if either spouse has a degree/diploma: Increased amount to Rs. 50,000/-, consisting of Rs. 25,000/- National Savings Certificate and Rs. 25,000/- cheque/Demand Draft. Other Benefits: Certificate of appreciation, 8 gram gold coin for Tirumangalyam (a traditional South Indian symbol of marriage for women)."]
+          },
+          {
+          "tag": "eligibilitymarriageassistanceSpeechandHearing",
+          "patterns": ["Eligibility of Marriage Assistance Program for Individuals Marrying Speech and Hearing Impaired Persons"],
+          "responses": ["A normal person should marry a speech and hearing-impaired person. The age of the couple (both) should be above 18 years. Additional Eligibility: The normal person and speech and hearing-impaired person individuals holding a degree or diploma are eligible to receive increased assistance."]
+          },
+          {
+            "tag": "descwheelchairscheme",
+            "patterns": ["Modified Special Wheelchairs Scheme for Cerebral Palsy Affected Persons"],
+            "responses": ["The 'Modified Special Wheelchairs Scheme for Cerebral Palsy Affected Persons,' initiated by the Department for the Welfare of Differently Abled Persons under the Government of Tamil Nadu, addresses the specific challenges faced by individuals with cerebral palsy regarding mobility and independence. This program offers customized wheelchairs with features such as adjustable seating systems and specialized support mechanisms to enhance their functional capacity."]
+          },
+          {
+            "tag": "benefitwheelchairscheme",
+            "patterns": ["Benefits of Modified Special Wheelchairs Scheme for Cerebral Palsy Affected Persons"],
+            "responses": ["Free distribution of modified special wheelchairs."]
+          },
+          {
+            "tag": "eligibilitywheelchairscheme",
+            "patterns": ["Eligibility of Modified Special Wheelchairs Scheme for Cerebral Palsy Affected Persons"],
+            "responses": ["The person's age should be 12 years or above. The person should be affected with cerebral palsy. The person should be a resident of the district/area in Tamil Nadu."]
+          },
+          {
+            "tag": "descmarriageassistanceDifferentlyAbledPersons",
+            "patterns": ["Marriage Assistance to Differently Abled Persons Marrying Differently Abled Persons"],
+            "responses": ["The Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu, has implemented a significant initiative titled 'Marriage Assistance to Differently Abled Persons Marrying Differently Abled Persons.' This pioneering program aims to provide crucial financial assistance to couples where both partners are differently-abled."]
+          },
+          {
+            "tag": "benefitmarriageassistanceDifferentlyAbledPersons",
+            "patterns": ["Benefits of Marriage Assistance to Differently Abled Persons Marrying Differently Abled Persons"],
+            "responses": ["Marriage assistance amount: Rs. 25,000/- as Rs. 12,500/- National Savings Certificate and Rs. 12,500/- cheque/Demand Draft for marriage expenses. Additional benefit if either spouse has a degree/diploma: Increased amount to Rs. 50,000/-. Other Benefits: Certificate of appreciation, 8 gram gold coin for Tirumangalyam (a traditional South Indian symbol of marriage for women)."]
+          },
+          {
+            "tag": "eligibilitymarriageassistanceDifferentlyAbledPersons",
+            "patterns": ["Eligibility of Marriage Assistance to Differently Abled Persons Marrying Differently Abled Persons"],
+            "responses": ["The couple should be differently abled. The differently abled person should marry a differently abled person. The age of the couple (both) should be above 18 years. The bride and groom fall under one of the 21 categories of differently-abled persons as per Section 2(Zc) of the Rights of Persons with Disabilities Act, 2016. Additional Eligibility: Differently abled individuals holding a degree or diploma are eligible to receive increased assistance."]
+          },
+          {
+            "tag": "descbreakfastscheme",
+            "patterns": ["Chief Minister Breakfast Scheme"],
+            "responses": ["The Tamil Nadu Chief Minister Breakfast Scheme by the Department of Social Welfare and Women Empowerment of the Tamil Nadu Government provides breakfast to primary school children from 1st to 5th standard studying in Government schools on all school working days."]
+          },
+          {
+            "tag": "benefitbreakfastscheme",
+            "patterns": ["Benefits of Chief Minister Breakfast Scheme"],
+            "responses": ["Free Breakfast will be provided to all Primary School Students. Breakfast has 13 Types of Food Items which will be distributed among Students. Free Breakfast will be distributed daily from Monday to Friday on School Working Days."]
+          },
+          {
+            "tag": "eligibilitybreakfastscheme",
+            "patterns": ["Eligibility of Chief Minister Breakfast Scheme"],
+            "responses": ["Benefit will be provided only to Students. Students should be Studying in the Government of Tamil Nadu Schools. Students of Class 1st to Class 5th will only be eligible."]
+          },
+          {
+            "tag": "descammaworkingwomen",
+            "patterns": ["Amma Two-Wheeler Working Women Scheme"],
+            "responses": ["The Amma Two-Wheeler Working Women Scheme by the Department of Social Welfare and Women Empowerment provides a scheme to empower working women by enabling them to purchase women-friendly two-wheelers and to ease their commute to their enterprises, places of employment, and engagements with banks and community-based institutions. Ease of use is a key consideration and therefore the vehicle is gearless/auto-geared."]
+          },
+          {
+            "tag": "benefitammaworkingwomen",
+            "patterns": ["Benefits of Amma Two-Wheeler Working Women Scheme"],
+            "responses": ["The reservation under the Amma Two-Wheeler Scheme is as follows: 21% for Scheduled Castes, 1% for Scheduled Tribes, and 4% for differently-abled women. A beneficiary will be provided with a maximum subsidy of 50% of the cost of the vehicle or Rs. 25,000/-, whichever is less, to purchase a brand new motorized gearless/auto-geared two-wheeler whose engine capacity should not exceed 125cc."]
+          },
+          {
+            "tag": "eligibilityammaworkingwomen",
+            "patterns": ["Eligibility of Amma Two-Wheeler Working Women Scheme"],
+            "responses": ["The applicant should be a native of and residing in Tamil Nadu. The applicant should be in the age group of 18 to 40 years. The applicant should know how to drive and possess a valid Two Wheeler / Learner License Registration (LLR) at the time of applying. The annual income of the beneficiary should not exceed Rs. 2,50,000/-. Only one woman per family is eligible. The applicant should have appeared for the class 8th examination (Passed/Failed). Priority will be given to working women residing in remote places, hilly regions, women-headed households, deserted women, destitute widows, differently-abled women, Unmarried women aged above 35 years, Scheduled Caste/Tribes, and Transgender."]
+          },
+          {
+            "tag": "descindiragandhi",
+            "patterns": ["Indira Gandhi National Disability Pension Scheme"],
+            "responses": ["The 'Indira Gandhi National Disability Pension Scheme' is a state initiative by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu. Its goal is to offer a Rs. 1,000 pension to individuals aged 18 and above, who belong to households below the poverty line. Eligibility criteria include a disability percentage of 80% or above, or severe/multiple disabilities."]
+          },
+          {
+            "tag": "benefitindiragandhi",
+            "patterns": ["Benefits of Indira Gandhi National Disability Pension Scheme"],
+            "responses": ["Under the Indira Gandhi National Disability Pension Scheme: Pension of Rs. 1,000/- per month is provided. Free clothes during Pongal and Deepavali: One free dhoti to a male pensioner and one free saree to a female pensioner. Free rice in Anganwadi Centres: 2kg/month to those who are taking nutritious meal and 4kg/month to those who are not taking nutritious meal."]
+          },
+          {
+            "tag": "eligibilityindiragandhi",
+            "patterns": ["Eligibility of Indira Gandhi National Disability Pension Scheme"],
+            "responses": ["The applicant should belong to the 'Below Poverty Line' category. The applicant's age should be 18 years and above. The applicant should have a disability of 80% or above, or should have multiple disabilities."]
+          },
+          {
+            "tag": "descindiragandhiwidow",
+            "patterns": ["Indira Gandhi National Widow Pension Scheme"],
+            "responses": ["The 'Indira Gandhi National Widow Pension Scheme' is a state scheme launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu. The scheme aims to provide a pension of Rs. 1,000/- to destitute widows who are 40 years and above in age and belong to households below the poverty line. The widow is also provided with one free saree during Pongal and Deepavali, and free rice in the Anganwadi Centres."]
+          },
+          {
+            "tag": "benefitindiragandhiwidow",
+            "patterns": ["Benefits of Indira Gandhi National Widow Pension Scheme"],
+            "responses": ["Under the Indira Gandhi National Widow Pension Scheme: Pension of Rs. 1,000/- per month is provided. Free clothes during Pongal and Deepavali: One free saree. Free rice in Anganwadi Centres: 2kg/month to those who are taking nutritious meals and 4kg/month to those who are not taking nutritious meals."]
+          },
+          {
+            "tag": "eligibilityindiragandhiwidow",
+            "patterns": ["Eligibility of Indira Gandhi National Widow Pension Scheme"],
+            "responses": ["The applicant should be a widow. The applicant should be destitute. The applicant should belong to the 'Below Poverty Line' category. The applicant's age should be 40 years and above."]
+          },
+          {
+            "tag": "descsewingmachine",
+            "patterns": ["Sathiyavanimuthu Ammaiyar Ninaivu Free Supply of Sewing Machine Scheme"],
+            "responses": ["The 'Sathiyavanimuthu Ammaiyar Ninaivu Free Supply of Sewing Machine Scheme' is a state scheme launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu. The scheme objective is to supply sewing machines free of cost to increase the self-employment potential for rehabilitation of destitute women/widows, deserted women, differently abled men and women, socially affected women, and women from economically weaker sections."]
+          },
+          {
+            "tag": "benefitsewingmachine",
+            "patterns": ["Benefits of Sathiyavanimuthu Ammaiyar Ninaivu Free Supply of Sewing Machine Scheme"],
+            "responses": ["Under the Sathiyavanimuthu Ammaiyar Ninaivu Free Supply of Sewing Machine Scheme, sewing machines and accessories are provided free of cost to eligible applicants."]
+          },
+          {
+            "tag": "eligibilitysewingmachine",
+            "patterns": ["Eligibility of Sathiyavanimuthu Ammaiyar Ninaivu Free Supply of Sewing Machine Scheme"],
+            "responses": ["The eligibility criteria for the Sathiyavanimuthu Ammaiyar Ninaivu Free Supply of Sewing Machine Scheme are: 1. The applicant's annual income should not exceed Rs. 72,000/-. 2. The age of the applicant should be between 20 to 40 years. 3. The applicant should have knowledge of tailoring. 4. The applicant should be any one of the following: Destitute Woman, Widow, Deserted Woman, Differently Abled Man, Differently Abled Woman, Socially Affected Woman, Woman From Economically Weaker Sections."]
+          },
+          {
+            "tag": "descoldagepension",
+            "patterns": ["Indira Gandhi National Old Age Pension Scheme in Tamil Nadu"],
+            "responses": ["The 'Indira Gandhi National Old Age Pension Scheme' was launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu. The scheme aims to provide a pension of Rs. 1,000/- to destitute people of 60 years and above belonging to households below the poverty line. The scheme also provides one free saree to females and one free dhoti to males during Pongal and Deepavali, along with free rice in the Anganwadi Centres."]
+          },
+          {
+            "tag": "benefitoldagepension",
+            "patterns": ["Benefits of Indira Gandhi National Old Age Pension Scheme"],
+            "responses": ["Under the Indira Gandhi National Old Age Pension Scheme, eligible individuals receive a pension of Rs. 1,000/- per month. Additionally, they receive free clothes during Pongal and Deepavali, and free rice in Anganwadi Centres."]
+          },
+          {
+            "tag": "eligibilityoldagepension",
+            "patterns": ["Eligibility of Indira Gandhi National Old Age Pension Scheme"],
+            "responses": ["To be eligible for the Indira Gandhi National Old Age Pension Scheme, the applicant should be destitute, aged 60 years and above, and belong to the 'Below Poverty Line' category."]
+          },
+          {
+            "tag": "descwidowremarriage",
+            "patterns": ["Dr. Dharmambal Ammaiyar Ninaivu Widow Remarriage Assistance Scheme-II"],
+            "responses": ["The 'Dr. Dharmambal Ammaiyar Ninaivu Widow Remarriage Assistance Scheme' was launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu. The scheme aims to encourage widow remarriage and rehabilitate widows by providing financial assistance along with a 1 sovereign (8gm) 22-carat gold coin."]
+          },
+          {
+            "tag": "benefitwidowremarriage",
+            "patterns": ["Benefits of Widow Remarriage Assistance Scheme"],
+            "responses": ["Under the Dr. Dharmambal Ammaiyar Ninaivu Widow Remarriage Assistance Scheme, eligible widows receive financial assistance of Rs. 25,000/- along with one sovereign (8gm) 22-carat gold coin for making Thirumangalyam."]
+          },
+          {
+            "tag": "eligibilitywidowremarriage",
+            "patterns": ["Eligibility of Widow Remarriage Assistance Scheme"],
+            "responses": ["To be eligible for the Dr. Dharmambal Ammaiyar Ninaivu Widow Remarriage Assistance Scheme, the applicant must be a widow aged 20 years or above. Additionally, the bridegroom should be less than 40 years old. The applicant should also have either a degree from regular colleges or a diploma recognized by the Directorate of Technical Education, Government of Tamil Nadu."]
+          },
+          {
+            "tag": "descdistressrelief",
+            "patterns": ["Distress Relief Scheme"],
+            "responses": ["The 'Distress Relief Scheme' was launched by the Social Welfare and Nutritious Meal Programme Department, Government of Tamil Nadu. It provides financial assistance of Rs. 20,000/- to BPL households upon the death of their primary breadwinner."]
+          },
+          {
+            "tag": "benefitdistressrelief",
+            "patterns": ["Benefits of Distress Relief Scheme"],
+            "responses": ["Under the Distress Relief Scheme, eligible BPL households receive financial assistance of Rs. 20,000/- upon the death of their primary breadwinner."]
+          },
+          {
+            "tag": "eligibilitydistressrelief",
+            "patterns": ["Eligibility of Distress Relief Scheme"],
+            "responses": ["To be eligible for the Distress Relief Scheme, the applicant must be the legal heir of the deceased primary breadwinner. Additionally, the family should be solely dependent on agriculture or have an annual income not exceeding Rs. 24,000/-. The family should also belong to the 'Below Poverty Line' category."]
+          },
+          {
+            "tag": "descevrmarriage",
+            "patterns": ["E.V.R. Maniammaiyar Ninaivu Marriage Assistance Scheme for Daughters of Poor Widows: Scheme-II"],
+            "responses": ["The 'E.V.R. Maniammaiyar Ninaivu Marriage Assistance Scheme for Daughters of Poor Widows: Scheme-II' was launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu. It provides financial assistance of Rs. 50,000/- along with one sovereign (8gm) 22-carat gold coin for making Thirumangalyam for the marriage of daughters of poor widows."]
+          },
+          {
+            "tag": "benefitevrmarriage",
+            "patterns": ["Benefits of E.V.R. Maniammaiyar Ninaivu Marriage Assistance Scheme for Daughters of Poor Widows: Scheme-II"],
+            "responses": ["The benefits of the E.V.R. Maniammaiyar Ninaivu Marriage Assistance Scheme for Daughters of Poor Widows: Scheme-II include financial assistance of Rs. 50,000/- for marriage expenses and one sovereign (8gm) 22-carat gold coin for making Thirumangalyam."]
+          },
+          {
+            "tag": "eligibilityevrmarriage",
+            "patterns": ["Eligibility of E.V.R. Maniammaiyar Ninaivu Marriage Assistance Scheme for Daughters of Poor Widows: Scheme-II"],
+            "responses": ["To be eligible for the E.V.R. Maniammaiyar Ninaivu Marriage Assistance Scheme for Daughters of Poor Widows: Scheme-II, the applicant must be a widow and the mother of a girl child. The annual income of the family should not exceed Rs. 72,000/-. The bride should be above 18 years old and meet the educational criteria."]
+          },
+          {
+            "tag": "descrarebooks",
+            "patterns": ["Scheme of Extending Grants for the Publication of Rare Books on Arts"],
+            "responses": ["The 'Scheme for Giving Awards to Traditional Artists' was launched by the Art and Culture Department, Government of Tamil Nadu. Under this scheme, grants are provided to authors for the publication of rare books considered essential for the development of arts."]
+            },
+            {
+            "tag": "benefitrarebooks",
+            "patterns": ["Benefits of the Scheme of Extending Grants for the Publication of Rare Books on Arts"],
+            "responses": ["Under the Scheme of Extending Grants for the Publication of Rare Books on Arts, authors receive a grant covering 60% of the total printing charges of 1000 copies or Rs. 15,000/-, whichever is less."]
+            },
+            {
+            "tag": "eligibilityrarebooks",
+            "patterns": ["Eligibility of the Scheme of Extending Grants for the Publication of Rare Books on Arts"],
+            "responses": ["To be eligible for the Scheme of Extending Grants for the Publication of Rare Books on Arts, the applicant must be an author/writer lacking sufficient financial resources to cover publishing expenses. The submitted book should be considered rare for the development of arts and should not have been published before."]
+            },
+            {
+            "tag": "descporkizhi",
+            "patterns": ["Scheme of Awarding Porkizhi to the Indigent Kalaimamani Awardee Artists"],
+            "responses": ["The 'Scheme of Awarding Porkizhi to the Indigent Kalaimamani Awardee Artists' was launched by the Art and Culture Department, Government of Tamil Nadu. It provides financial assistance of Rs. 15,000/- to artists who have received the Kalaimamani Award and are currently facing indigent circumstances."]
+            },
+            {
+            "tag": "benefitporkizhi",
+            "patterns": ["Benefits of the Scheme of Awarding Porkizhi to the Indigent Kalaimamani Awardee Artists"],
+            "responses": ["Under the Scheme of Awarding Porkizhi to the Indigent Kalaimamani Awardee Artists, eligible artists receive financial assistance of Rs. 15,000/-."]
+            },
+            {
+            "tag": "eligibilityporkizhi",
+            "patterns": ["Eligibility of the Scheme of Awarding Porkizhi to the Indigent Kalaimamani Awardee Artists"],
+            "responses": ["To be eligible for the Scheme of Awarding Porkizhi to the Indigent Kalaimamani Awardee Artists, the applicant must be an artist who has received the Kalaimamani Award and is currently living under indigent circumstances. The age of the applicant should be 58 years or above, and the annual income should not exceed Rs. 12,000/-."]
+            },
+            {
+            "tag": "descfuneralfinancial",
+            "patterns": ["Financial Assistance to Meet the Funeral Expenses of Differently Abled Person scheme"],
+            "responses": ["The scheme 'Financial Assistance to Meet the Funeral Expenses of Differently Abled Person' was launched by the Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu. It provides financial assistance of Rs. 2,000/- to the legal heir of the deceased differently abled person to meet the expenses associated with the funeral."]
+            },
+            {
+            "tag": "benefitfuneralfinancial",
+            "patterns": ["Benefits of the Financial Assistance to Meet the Funeral Expenses of Differently Abled Person scheme"],
+            "responses": ["The main benefit of the Financial Assistance to Meet the Funeral Expenses of Differently Abled Person scheme is the provision of financial assistance of Rs. 2,000/- to the legal heir of the deceased differently abled person."]
+            },
+            {
+            "tag": "eligibilityfuneralfinancial",
+            "patterns": ["Eligibility of the Financial Assistance to Meet the Funeral Expenses of Differently Abled Person scheme"],
+            "responses": ["To be eligible for the Financial Assistance to Meet the Funeral Expenses of Differently Abled Person scheme, the applicant must be the legal heir of the deceased differently abled person who was a registered member of the Welfare Board for the Differently Abled."]
+            },
+            {
+            "tag": "descmarriageassistanceVisuallyImpaired",
+            "patterns": ["Marriage Assistance Scheme for Individuals Marrying Visually Impaired Persons"],
+            "responses": ["The 'Marriage Assistance Scheme for Individuals Marrying Visually Impaired Persons' provides targeted financial assistance to couples where one partner is visually impaired. The scheme aims to mitigate potential economic burdens associated with visual impairment and foster inclusive social environments."]
+            },
+            {
+            "tag": "benefitmarriageassistanceVisuallyImpaired",
+            "patterns": ["Benefits of the Marriage Assistance Scheme for Individuals Marrying Visually Impaired Persons"],
+            "responses": ["The main benefit of the Marriage Assistance Scheme for Individuals Marrying Visually Impaired Persons is financial assistance amounting to Rs. 25,000/-. Additional benefits include a certificate of appreciation, an 8 gram gold coin for Tirumangalyam, and increased assistance if either spouse has a degree or diploma."]
+            },
+            {
+            "tag": "eligibilitymarriageassistanceVisuallyImpaired",
+            "patterns": ["Eligibility of the Marriage Assistance Scheme for Individuals Marrying Visually Impaired Persons"],
+            "responses": ["To be eligible for the Marriage Assistance Scheme for Individuals Marrying Visually Impaired Persons, a normal person should marry a speech and visually impaired person. The age of both partners should be above 18 years."]
+            },
+      {
+        "tag": "SkillsAndEmployment",
+        "patterns":["Skills and Employment"],
+        "responses": ["Scheme of Extending Financial Assistance to Folk Artists, Troupes for the Purchase of Musical Instruments, Costumes\nScheme of Encouragement to Young Artists\nScheme of Conferring Kalaichemmal Awards\nPoompuhar District Craft Award\nTeam Production Award\nGen Next Competition\nLiving Craft Treasure Award\nEstablishing Aavin Parlour for Differently Abled Persons\nMsme Skill Training And Employment Scheme\nScheme of Extending Grants for the Publication of Rare Books on Arts\nScheme for Giving Awards to Junior Artists in Contemporary Art Field\nScheme of Awarding Porkizhi to the Indigent Kalaimamani Awardee Artists\nUtility Based Handicrafts Award\nPoompuhar State Award\nUnemployment Assistance Scheme - Tamil Nadu\nScheme for Giving Awards to Senior Artists in Contemporary Art Field\nFitter Training to Hearing Impaired Persons"]
+      },
+      {
+        "tag": "Folk",
+        "patterns":[" "],
+        "responses":["'Scheme of Extending Financial Assistance to Folk Artists, Troupes for the Purchase of Musical Instruments, Costumes' was launched by the Art and Culture Department, Government of Tamil Nadu. The scheme provides a sum of Rs. 2,000/- to individual folk artists & Rs. 6,000/- for cultural troupes, as a grant for the purchase of Musical Instruments and Costumes."]
+        },
+        {
+        "tag": "FolkBenefits",
+        "patterns":["Benefits of Scheme of Extending Financial Assistance to Folk Artists, Troupes for the Purchase of Musical Instruments, Costumes"],
+        "responses":["For Folk Artists, financial Assistance of Rs. 2,000/-. For Troupes, financial Assistance of Rs. 6,000/-."]
+        },
+        {
+        "tag": "FolkEligibility",
+        "patterns":["Eligibility of Scheme of Extending Financial Assistance to Folk Artists, Troupes for the Purchase of Musical Instruments, Costumes"],
+        "responses":["The applicant should be a Folk Artist/Troupe. The applicant should be continuously performing in the programs. The applicant should have performed in the programs for more than three years."]
+        },
+        {
+        "tag": "YoungArtist",
+        "patterns": ["Scheme of Encouragement to Young Artists"],
+        "responses": ["The 'Scheme of Encouragement to Young Artists' was launched by the Art and Culture Department, Government of Tamil Nadu. The scheme gives an opportunity to talented young artists to perform in cultural programmes organized by voluntary organizations, thereby identifying talented youth in the field of Vocal Music, Bharathanatyam, and Instrumental Music. Remuneration in the range of Rs. 5,000/- to Rs. 10,000/- is paid to the artists for their performance."]
+        },
+        {
+        "tag": "YoungArtistsBenefits",
+        "patterns": ["Benefits of the Scheme of Encouragement to Young Artists"],
+        "responses": ["Remuneration in the range of Rs. 5,000/- to Rs. 10,000/-."]
+        },
+        {
+        "tag": "YoungArtistsEligibility",
+        "patterns": ["Eligibility of the Scheme of Encouragement to Young Artists"],
+        "responses": ["The applicant should be an artist. The applicant should be a domicile of Tamil Nadu. In the case of music artist, the age should be above 16 years and within 30 years. In the case of Bharatanatyam artist, the age should be over 15 years and within 30 years. The orchestra artists such as ghatam, ganjira, muharshingh, konnakkol are also eligible to apply. The artist should participate in any one of the following performances: Vocal, Bharatanatyam, Kathakalakshepam, Veena, Violin (solo) Nadaswaram, Flute, Jalatharangam, Gottuvadhyam, Clarinet, Guitar, Mandolin, Saxophone."]
+        },
+        {
+        "tag": "Kalaichemmal",
+        "patterns": ["Scheme of Conferring Kalaichemmal Awards"],
+        "responses": ["The 'Scheme of Conferring Kalaichemmal Awards' was launched by the Art and Culture Department, Tamil Nadu. The scheme aims to encourage eminent artists in the field of paintings and sculptures in recognition of their meritorious service in the fields of Traditional Art and Contemporary Art. The Kalaichemmal awardees are given a citation and a cash award of Rs. 1,00,000/-. The exhibitions are conducted by Oviya Nunkalai Kuzhu at the state level and creations works will be on display for public view in the exhibition."]
+        },
+        {
+        "tag": "KalaichemmalAwardsBenefits",
+        "patterns": ["Benefits of the Scheme of Conferring Kalaichemmal Awards"],
+        "responses": ["Financial Assistance of Rs. 1,00,000/-. Copper Citation Plaque."]
+        },
+        {
+        "tag": "KalaichemmalAwardsEligibility",
+        "patterns": ["Eligibility of the Scheme of Conferring Kalaichemmal Awards"],
+        "responses": ["The applicant should be an eminent artist. The applicant should be a domicile of Tamil Nadu or should be a resident of the state for at least five years. The eminent artist should have outstanding records of achievement in the field of Contemporary or Traditional art. The eminent artist should have continuous involvement in their fields. The eminent artist should have participated in art Exhibitions conducted on behalf of the Government or in the major exhibitions of Art conducted by others. The eminent artist should receive awards at the National-level or State-level art Exhibitions."]
+        },
+        {
+        "tag": "PoompuharCraft",
+        "patterns": ["Poompuhar District Craft Award"],
+        "responses": ["The 'Poompuhar District Craft Award' scheme was launched in the year 2011-2012 by the Department of Handlooms, Handicrafts, Textiles & Khadi, Govt. of Tamil Nadu. The award was introduced to recognize and honor the artisans district-wise. The awards are conferred every year and consist of a cash prize of Rs. 10,000/-, a silver medal, and a certificate. The award is granted annually."]
+        },
+        {
+        "tag": "PoompuharCraftAwardBenefits",
+        "patterns": ["Benefits of the Poompuhar District Craft Award"],
+        "responses": ["Cash Prize of Rs. 10,000/-. Silver Medal. Certificate."]
+        },
+        {
+        "tag": "PoompuharCraftAwardEligibility",
+        "patterns": ["Eligibility of the Poompuhar District Craft Award"],
+        "responses": ["The applicant should be an artisan. The applicant should be a native of Tamil Nadu. Handicraft competitions will be conducted in the following 16 types of handicrafts: Panchaloka Idols, Brass Lamps and Brass Artifacts, Thanjavur Paintings, Thanjavur Plates, Wood Sculptures, Stone Sculptures, Fire Clay, Kalamkari Pathik and Applique Work, Pulp Toys, Mat Weaving, Bamboo and Palm Leaf Products, Neti Work, Textiles, Temple Jewellery, Pictorial Embroidery Work and Other Handicrafts. The experience of the artisans and the service rendered by them in their profession and other special features will also be taken into consideration during the passing."]
+        },
+        {
+        "tag": "TeamProduction",
+        "patterns": ["Team Production Award"],
+        "responses": ["The 'Team Production Award' scheme was launched by the Handlooms, Handicrafts, Textiles, & Khadi Department, Government of Tamil Nadu. This award is being given to artisans for handicraft items to be made by a team. This award will be given to 3 groups every year with a cash prize of Rs. 40,000/-, 4 grams gold medal, Thamirapattiram, and a certificate. The applicant applies through Poompucar sales and manufacturing plant managers."]
+        },
+        {
+        "tag": "TeamProductionAwardBenefits",
+        "patterns": ["Benefits of the Team Production Award"],
+        "responses": ["Cash Prize of Rs. 40,000/-. 4 gm Gold Medal. One Thamirapattiram. Certificate."]
+        },
+        {
+        "tag": "TeamProductionAwardEligibility",
+        "patterns": ["Eligibility of the Team Production Award"],
+        "responses": ["The group should be from Tamil Nadu. The group applying for a group production award must have more than two artisans as members. The group should be Tamil Nadu manufacturers of handicrafts. The craft submitted for this award should be produced by the group."]
+        },
+        {
+          "tag": "GenNextComp",
+          "patterns": ["Gen Next Competition"],
+          "responses": ["The 'Gen Next Competition' scheme was launched by the Handlooms, Handicrafts, Textiles, and Khadi Dept, Government of Tamil Nadu. The scheme aims to ensure that the traditional handicrafts of Tamil Nadu survive and are passed on to the next generation. To achieve this, a craft competition was introduced from the year 2013-2014 onwards for artisans below 30 years of age."]
+          },
+          {
+          "tag": "GenNextCompetitionBenefits",
+          "patterns": ["Benefits of Gen Next Competition"],
+          "responses": ["Cash Prize of 2000, Silver Medal, Certificate."]
+          },
+          {
+          "tag": "GenNextCompetitionEligibility",
+          "patterns": ["Eligibility of Gen Next Competition"],
+          "responses": ["The applicant should be an Artisan, The applicant should be a native of Tamil Nadu, The applicant should be below 30 years of age, Handicraft competitions will be conducted in the following 16 types of handicrafts: Panchaloka Idols, Brass Lamps and Brass Artifacts, Thanjavur Paintings, Thanjavur Plates, Wood Carvings, Stone Sculptures, Fire Clay Sculptures, Applique and Kalamkari work, Paper Pulp Toys, Weaving, Bamboo and Palm Leaf Products, Neti Work, Fiber Products, Temple jewelry, Image Stitching Work, Other Handicrafts, The examination will be conducted based on places of prominence in handicraft industries. The center and date of the exam will be announced later."]
+          },
+          {
+          "tag": "LivingCraftTreasureAward",
+          "patterns": ["Living Craft Treasure Award"],
+          "responses": ["The 'Living Craft Treasure Award' scheme was launched by the Handlooms, Handicrafts, Textiles, and Khadi Department, Government of Tamil Nadu. This is the highest award for handicrafts at the state level, introduced in the year 2013-2014 for craftsmen of eminence who are above the age of 65 years. This award consists of a cash prize of Rs.1.00 lakh, a thamirapattiram, an 8-gram gold medal, and a certificate. The award is granted yearly."]
+          },
+          {
+          "tag": "LivingCraftTreasureAwardBenefits",
+          "patterns": ["Benefits of Living Craft Treasure Award"],
+          "responses": ["Cash Prize of 1,00,000, Thamirapattiram, 8-gram Gold Medal, Certificate."]
+          },
+          {
+          "tag": "LivingCraftTreasureAwardEligibility",
+          "patterns": ["Eligibility of Living Craft Treasure Award"],
+          "responses": ["The applicant should be an artisan, The applicant should be a native of Tamil Nadu, The applicant should be working in the handicraft industry in Tamil Nadu, The applicant should be 65 years of age or above, The experience of the craftsman and the service he has rendered in his profession's special features will be taken into consideration during selection."]
+          },
+          {
+            "tag": "descAavinParlour",
+            "patterns": ["Establishing Aavin Parlour for Differently Abled Persons"],
+            "responses": ["The scheme Establishing Aavin Parlour for Differently Abled Persons was launched by the Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu. The scheme aims to create self-employment avenues for differently abled persons by establishing Aavin parlours for them to sell Aavin brand products like milk, butter, curd, etc."]
+            },
+            {
+            "tag": "eligibilityAavinParlour",
+            "patterns": ["Eligibility of Establishing Aavin Parlour for Differently Abled Persons"],
+            "responses": ["The applicant should be a differently abled person. The applicant's age should be 18 years or above."]
+            },
+            {
+            "tag": "benefitAavinParlour",
+            "patterns": ["Benefits of Establishing Aavin Parlour for Differently Abled Persons"],
+            "responses": ["The government has issued orders for establishing Aavin parlours for differently-abled persons to sell Aavin brand products like milk, butter, curd, etc."]
+            },
+          {
+          "tag": "MSMESkillTrainingScheme",
+          "patterns": ["MSME Skill Training and Employment Scheme"],
+          "responses": ["The scheme 'MSME Skill Training and Employment Scheme' was launched by the Department of Micro, Small and Medium Enterprises, Government of Tamil Nadu during the years 2021-22. The scheme is implemented by the Commissionerate of Industries and Commerce at the State level, the Regional Joint Director of Industries and Commerce for Chennai district, and General Managers of the District Industries Centre for other districts in Tamil Nadu. Objective: The objective of the scheme is to fulfill the skilled manpower requirement of MSMEs by imparting necessary on-the-job training by the MSMEs themselves and thereby creating employment. The scheme will assist the MSME sector by sharing the training cost which otherwise would be borne by the enterprises themselves. Training provider: MSMEs will have to give employment based job oriented on the job training which will lead to certification. It will be the responsibility of the MSMEs to ensure that for the proposed training, the relevant capacities are available to them."]
+          },
+          {
+          "tag": "MSMESkillTrainingSchemeBenefits",
+          "patterns": ["Benefits of MSME Skill Training and Employment Scheme"],
+          "responses": ["Under the scheme, the subsidy will be provided to the MSMEs for training; subject to a maximum of 2000 per month per candidate for a maximum of 6 months, Certificates will be provided by the National Skill Development Corporation (NSDC), after the assessment of acquired skills by the trained candidates."]
+          },
+          {
+          "tag": "MSMESkillTrainingSchemeEligibility",
+          "patterns": ["Eligibility of MSME Skill Training and Employment Scheme"],
+          "responses": ["The applicant should be an MSME unit in the state who has the requisite infrastructure, Only in respect of vocation/trade in which MSMEs have expertise will be encouraged, MSME units should have experience, expertise, and running business, The trainees selected by the applicant (MSME) shall be between 18 to 25 years of age, The trainees selected by the applicant shall have an engineering degree, a polytechnic diploma, or an Industrial Training Institute (ITI) certificate, or qualification as prescribed by the respective sector skill council, The applicant shall provide the trainee with a stipend of 5000 per month, for a maximum of 6 months, The applicant, MSME Unit, should not have been blacklisted at any point in time by any Government Norms/Rules/Acts. Note: The scheme is funded by Tamil Nadu Skill Development Corporation (TNSDC)"]
+          },
+          {
+          "tag": "TraditionalArtistsAwardsScheme",
+          "patterns": ["Scheme for Giving Awards to Traditional Artists"],
+          "responses": ["The 'Scheme for Giving Awards to Traditional Artists' was launched by the Art and Culture Department, Government of Tamil Nadu. Under this scheme, the grant is sanctioned to the writer for the publication of books that are considered rare for the development of arts. 60% of the total cost of the printing charges of 1000 copies or 15000 whichever is less is sanctioned as a grant. The applications are accepted offline in the prescribed form available at the Manram."]
+          },
+          {
+          "tag": "TraditionalArtistsAwardsSchemeBenefits",
+          "patterns": ["Benefits of Scheme for Giving Awards to Traditional Artists"],
+          "responses": ["60% of the total cost of the printing charges of 1000 copies or 15000 whichever is less is sanctioned as a grant."]
+          },
+          {
+          "tag": "TraditionalArtistsAwardsSchemeEligibility",
+          "patterns": ["Eligibility of Scheme for Giving Awards to Traditional Artists"],
+          "responses": ["The applicant should be an Author/Writer, The applicant should lack sufficient financial resources to cover the publishing expenses of the rare books, The book should have been considered rare for the development of arts, The submitted book should not have been published before."]
+          },
+          {
+          "tag": "JuniorArtistsAwardsScheme",
+          "patterns": ["Scheme for Giving Awards to Junior Artists in Contemporary Art Field"],
+          "responses": ["The 'Scheme for Giving Awards to Junior Artists in Contemporary Art Field' was launched by the Art and Culture Department, Tamil Nadu. The scheme aims to encourage junior artists towards Painting & Sculpture arts by giving an award of 10000 at the state-level contemporary art exhibition. The Traditional Art / Contemporary Art exhibitions are conducted by Oviya Nunkalai Kuzhu at the state level and awarded works will be on display for public view in the exhibition."]
+          },
+          {
+          "tag": "JuniorArtistsAwardsSchemeBenefits",
+          "patterns": ["Benefits of Scheme for Giving Awards to Junior Artists in Contemporary Art Field"],
+          "responses": ["10000 award prize money for 30 Junior artists."]
+          },
+          {
+          "tag": "JuniorArtistsAwardsSchemeEligibility",
+          "patterns": ["Eligibility of Scheme for Giving Awards to Junior Artists in Contemporary Art Field"],
+          "responses": ["The applicant should be a domicile of Tamil Nadu, The applicant should be an artist, The applicant should be less than 30 years of age."]
+          },
+          {
+          "tag": "PorkizhiAwardScheme",
+          "patterns": ["Scheme of Awarding Porkizhi to the Indigent Kalaimamani Awardee Artists"],
+          "responses": ["The 'Scheme of Awarding Porkizhi to the Indigent Kalaimamani Awardee Artists' was launched by the Art and Culture Department, Government of Tamil Nadu. The artists who have already received the Kalaimamani Award and who are presently in indigent circumstances are awarded financial assistance of 15000. The scheme is implemented by the Tamil Nadu Eyal Isai Nataka Mandram Ponni."]
+          },
+          {
+          "tag": "PorkizhiAwardSchemeBenefits",
+          "patterns": ["Benefits of Scheme of Awarding Porkizhi to the Indigent Kalaimamani Awardee Artists"],
+          "responses": ["Financial Assistance of 15000."]
+          },
+          {
+          "tag": "PorkizhiAwardSchemeEligibility",
+          "patterns": ["Eligibility of Scheme of Awarding Porkizhi to the Indigent Kalaimamani Awardee Artists"],
+          "responses": ["The applicant should be an artist, The applicant should have received the Kalaimamani Award, The applicant should be living under indigent circumstances, The age of the applicant should be 58 years or above, The annual income of the applicant should not exceed 12000."]
+          },
+          {
+            "tag": "UtilityBasedHandicraftsAwardScheme",
+            "patterns": ["Utility Based Handicrafts Award scheme"],
+            "responses": ["The Utility Based Handicrafts Award scheme was launched by the Handlooms, Handicrafts, Textiles, and Khadi Department, Government of Tamil Nadu. It aims to encourage artisans to produce utility-based handicrafts. The award consists of a cash prize of 40,000, a 4 gm gold medal, one thamirapattiram, and a certificate. The applicant applies through poompucar sales and manufacturing plant managers."]
+            },
+            {
+            "tag": "UtilityBasedHandicraftsAwardSchemeBenefits",
+            "patterns": ["Benefits of Utility Based Handicrafts Award scheme"],
+            "responses": ["Cash Prize of 40,000, 4 gm gold medal, One Thamirapattiram, Certificate."]
+            },
+            {
+            "tag": "UtilityBasedHandicraftsAwardSchemeEligibility",
+            "patterns": ["Eligibility of Utility Based Handicrafts Award scheme"],
+            "responses": ["The applicant should be an artisan, The applicant should be a native of Tamil Nadu, The applicant should be a manufacturer of handicrafts in Tamil Nadu, The applicant should possess proficiency in Tamil and must be a contributor to Tamil literature, The applicant should use non-toxic and non-polluting craft materials for this award."]
+            },
+            {
+            "tag": "PoompuharStateAwardScheme",
+            "patterns": ["Poompuhar State Award scheme"],
+            "responses": ["The Poompuhar State Award scheme was launched by the Department of Handlooms, Handicrafts, Textiles & Khadi, Government of Tamil Nadu. The best artisans who have contributed to the development of the crafts of Tamil Nadu are selected and given a cash prize of 50,000, a 4-gram gold medal, thamirapathiram, and a certificate. The economically backward awardees are also eligible for a monthly pension of 3,500 after completion of 60 years of age."]
+            },
+            {
+            "tag": "PoompuharStateAwardSchemeBenefits",
+            "patterns": ["Benefits of Poompuhar State Award scheme"],
+            "responses": ["At the Poompuhar State Award ceremony, awardees receive a cash prize of 50,000, a 4-gram gold medal, thamirapathiram, and a certificate. Economically backward awardees are also eligible for a monthly pension of 3,500 after completing 60 years of age."]
+            },
+            {
+            "tag": "PoompuharStateAwardSchemeEligibility",
+            "patterns": ["Eligibility of Poompuhar State Award scheme"],
+            "responses": ["The applicant should be an artisan, The applicant should be a native of Tamil Nadu, The applicant's age should be above 30 years, For the monthly pension, the applicant should be 60 years or above, The experience of the artisans and the service rendered by them in their profession will be taken into consideration during the selection process."]
+            },
+            {
+            "tag": "UnemploymentAssistanceScheme",
+            "patterns": ["Unemployment Assistance Scheme in Tamil Nadu"],
+            "responses": ["The Unemployment Assistance Scheme was launched to help the youth who have registered with the District Employment and Career Guidance Centre and waiting in the live register for five years or more to secure employment. Assistance is also provided to differently-abled job seekers who have been on the live register for one year. There is no restriction on parental income and age for differently-abled candidates."]
+            },
+            {
+            "tag": "UnemploymentAssistanceSchemeBenefits",
+            "patterns": ["Benefits of Unemployment Assistance Scheme in Tamil Nadu"],
+            "responses": ["For General Candidates: SSLC/10th Failed (Secondary School Leaving Certificate) - 200 per month, SSLC/10th Passed - 300 per month, HSC/12th - 400 per month, Graduation - 600 per month, For Differently-Abled Candidates: Illiterate to SSLC/10th - 600 per month, HSC/12th - 750 per month, Graduation - 1,000 per month."]
+            },
+            {
+            "tag": "UnemploymentAssistanceSchemeEligibility",
+            "patterns": ["Eligibility of Unemployment Assistance Scheme in Tamil Nadu"],
+            "responses": ["For General Candidates: Resident of Tamil Nadu, Family Annual Income should not be more than 72,000 per annum, Maximum Age Limit: 40 Years for General Candidate, 45 Years for Schedule Caste/Tribe Candidate, Should be registered in Employment Exchange for 5 years or more, Should not be a regular student of any school or college, Should not be in any type of employment, For Differently Abled Candidates: Resident of Tamil Nadu, Should have Physical Disability, Should be registered in Employment Exchange for 1 year or more, No Maximum Age or Income Limit, Should not be in any type of employment, Should not be a regular student of any school or college."]
+            },
+            {
+            "tag": "SeniorArtistsAwardScheme",
+            "patterns": ["Scheme for Giving Awards to Senior Artists in Contemporary Art Field"],
+            "responses": ["The Scheme for Giving Awards to Senior Artists in Contemporary Art Field was launched to encourage senior artists and develop the Painting and Sculpture arts by giving an award of 15,000 at the state-level contemporary art exhibition. The exhibitions are conducted by Oviya Nunkalai Kuzhu at the state level and awarded works will be on display for public view in the exhibition."]
+            },
+            {
+            "tag": "SeniorArtistsAwardSchemeBenefits",
+            "patterns": ["Benefits of Scheme for Giving Awards to Senior Artists in Contemporary Art Field"],
+            "responses": ["Prize Money of 15,000."]
+            },
+            {
+            "tag": "SeniorArtistsAwardSchemeEligibility",
+            "patterns": ["Eligibility of Scheme for Giving Awards to Senior Artists in Contemporary Art Field"],
+            "responses": ["The applicant should be a domicile of Tamil Nadu, The applicant should be an artist, The applicant's age should be 30 years or above."]
+            },
+            {
+            "tag": "KalaimamaniAwardScheme",
+            "patterns": ["Scheme of Conferring 'Kalaimamani' Award"],
+            "responses": ["The Scheme of Conferring 'Kalaimamani' Award - Tamil Nadu was launched by the Art & Culture Department, Government of Tamil Nadu. The awards felicitate the famous artists who are serving in a commendable manner in the fields of Eyal, Isai, Natakam, Natyam, Cinema, Isai Natakam, Folk arts, Television & related arts given investiture gold pendant of three sovereign ponnadai and citation."]
+            },
+            {
+            "tag": "KalaimamaniAwardImplementers",
+            "patterns": ["Implementers of Kalaimamani Award scheme"],
+            "responses": ["The Kalaimamani Award scheme is implemented by the Tamil Nadu Eyal Isai Nataka Mandram, located in Chennai."]
+            },
+            {
+            "tag": "KalaimamaniAwardBenefits",
+            "patterns": ["Benefits of Kalaimamani Award scheme"],
+            "responses": ["At the Kalaimamani Award Investiture Function, awardees receive a gold pendant of three sovereign Ponnadai and a citation."]
+            },
+            {
+            "tag": "KalaimamaniAwardEligibility",
+            "patterns": ["Eligibility of Kalaimamani Award scheme"],
+            "responses": ["Eligibility for the Kalaimamani Award is based on the artist's popularity and significant contributions to traditional arts. The applicant should be an Artist, The artist should be popular and famous, The artist should have professionally rendered yeomen services for the enrichment of the traditional arts, The artist's performance should have had lasting contribution, popularity, and merit in the art disciplines of Tamil Literature, Music, Bharathanatyam, Drama, Film, Folk arts, Painting, Sculptures, Vigadam, etc, An artist who is popular in various art disciplines can be conferred the Kalaimamani Award for one discipline only, If more than one artist is jointly engaged in artistic pursuit in any of the art disciplines, the award will be given to them jointly, This award is conferred regardless of caste, religion, race, and age, Individual works of art or a single achievement will not be considered for conferring this award."]
+            },
+            {
+              "tag": "YoungArtistsScholarshipScheme",
+              "patterns": ["Young Artists Scholarship Scheme"],
+              "responses": ["The Scheme to Award Scholarship to Young Artists was launched to encourage postgraduate and graduate students of the Government College of Fine Arts, Chennai & Kumbakonam by awarding scholarships every year, as recommended by the Principals of the Colleges. These scholarships are given to outstanding students studying in their final year B.F.A (Bachelor of Fine Arts) and outstanding students studying in their final year M.F.A (Master of Fine Arts)."]
+          },
+          {
+              "tag": "YoungArtistsScholarshipSchemeBenefits",
+              "patterns": ["Benefits of Young Artists Scholarship Scheme"],
+              "responses": ["Government College of Fine Arts, Chennai: Scholarship of 3000 to 10 outstanding students studying in final year B.F.A. (Bachelor of Fine Arts). Scholarship of 5000 to 4 outstanding students studying in final year M.F.A. (Master of Fine Arts). Government College of Fine Arts, Kumbakonam: Scholarship of 3000 to 10 outstanding students studying in final year B.F.A. (Bachelor of Fine Arts). Scholarship of 5000 to 2 outstanding students studying in final year M.F.A. (Master of Fine Arts)."]
+          },
+          {
+              "tag": "YoungArtistsScholarshipSchemeEligibility",
+              "patterns": ["Eligibility of Young Artists Scholarship Scheme"],
+              "responses": ["The applicant should be a student. The applicant should be studying in the final year of B.F.A. or M.F.A. The applicant should be studying at the Government College of Fine Arts, Chennai or the Government College of Fine Arts, Kumbakonam."]
+          },
+          {
+              "tag": "KalaiMudhumaniAwardScheme",
+              "patterns": ["Kalai Mudhumani Award Scheme"],
+              "responses": ["The Scheme of Giving Awards to Eminent Artists - Kalai Mudhumani Award, initiated by the Art and Culture Department, Government of Tamil Nadu, aims to promote and preserve the culture of Tamil Nadu. Selected artists are awarded financial assistance of 20000, certificates of appreciation, and a shawl worth 500. This scheme is implemented in all Districts of Tamil Nadu."]
+          },
+          {
+              "tag": "KalaiMudhumaniAwardSchemeBenefits",
+              "patterns": ["Benefits of Kalai Mudhumani Award Scheme"],
+              "responses": ["Financial Assistance of 20000. Certificate of Appreciation. A shawl worth 500."]
+          },
+          {
+              "tag": "KalaiMudhumaniAwardSchemeEligibility",
+              "patterns": ["Eligibility of Kalai Mudhumani Award Scheme"],
+              "responses": ["The applicant should be an artist. The applicant's age should be 66 years and above."]
+          },
+          {
+              "tag": "KalaiNanmaniAwardScheme",
+              "patterns": ["Kalai Nanmani Award Scheme"],
+              "responses": ["The Scheme of Giving Awards to Eminent Artists - Kalai Nanmani Award, initiated by the Art and Culture Department, Government of Tamil Nadu, aims to promote and preserve the culture of Tamil Nadu. Selected artists are awarded financial assistance of 15000, certificates of appreciation, and a shawl worth 500. This scheme is implemented in all Districts of Tamil Nadu."]
+          },
+          {
+              "tag": "KalaiNanmaniAwardSchemeBenefits",
+              "patterns": ["Benefits of Kalai Nanmani Award Scheme"],
+              "responses": ["Financial Assistance of 15000. Certificate of Appreciation. A shawl worth 500."]
+          },
+          {
+              "tag": "KalaiNanmaniAwardSchemeEligibility",
+              "patterns": ["Eligibility of Kalai Nanmani Award Scheme"],
+              "responses": ["The applicant should be an artist. The age of the applicant should be between 51 to 65 years."]
+          },
+          {
+              "tag": "FinancialAssistanceToIndigentArtistsScheme",
+              "patterns": ["Financial Assistance to Indigent Artists Scheme"],
+              "responses": ["The Scheme of Financial Assistance to Indigent Artists, launched by the Art and Culture Department, Government of Tamil Nadu, provides financial assistance of 3000 per month to artists who are in indigent circumstances and their dependents. Indigent artists who have rendered services in the field of Art and Culture during their lifetime are eligible for this scheme."]
+          },
+          {
+              "tag": "FinancialAssistanceToIndigentArtistsSchemeBenefits",
+              "patterns": ["Benefits of Financial Assistance to Indigent Artists Scheme"],
+              "responses": ["Financial Assistance of 3000 per month."]
+          },
+          {
+              "tag": "FinancialAssistanceToIndigentArtistsSchemeEligibility",
+              "patterns": ["Eligibility of Financial Assistance to Indigent Artists Scheme"],
+              "responses": ["The applicant should be an artist. The applicant should be in indigent circumstances. The age of the applicant should be 58 years or above. The applicant should have professionally served for the enrichment of one or more art disciplines such as music, dance, drama, film, folk arts, etc. The annual income of the applicant or their legal spouse should not exceed 12000."]
+          },
+          {
+              "tag": "KalaiValarmaniAwardScheme",
+              "patterns": ["Kalai Valarmani Award Scheme"],
+              "responses": ["The Scheme of Giving Awards to Eminent Artists - Kalai Valarmani Award, launched by the Art and Culture Department, Government of Tamil Nadu, aims to promote and preserve the culture of Tamil Nadu. Selected artists are awarded financial assistance of 6000 and certificates of appreciation. The scheme is implemented in all districts of Tamil Nadu."]
+          },
+          {
+              "tag": "KalaiValarmaniAwardSchemeBenefits",
+              "patterns": ["Benefits of Kalai Valarmani Award Scheme"],
+              "responses": ["Financial Assistance of 6000. Certificate of Appreciation. A shawl worth 500. 5 eminent artists are awarded every year."]
+          },
+          {
+              "tag": "KalaiValarmaniAwardSchemeEligibility",
+              "patterns": ["Eligibility of Kalai Valarmani Award Scheme"],
+              "responses": ["The applicant should be an artist. The age of the applicant should be between 19 to 35 years."]
+          },          
+          {
+            "tag": "NewDramaProductionsScheme",
+            "patterns": ["New Drama Productions Scheme"],
+            "responses": ["The Scheme of Extending Financial Assistance to New Drama Productions, launched by the Art & Culture Department, Government of Tamil Nadu, aims to encourage the dance-drama art forms and the artists involved in such arts. The scheme provides grants of up to 20000 for the production and staging of new Tamil dance dramas based on Tamil arts, literature, and culture."]
+        },
+        {
+            "tag": "NewDramaProductionsSchemeBenefits",
+            "patterns": ["Benefits of New Drama Productions Scheme"],
+            "responses": ["Financial Assistance of up to 20000, based on the quality and scenarios of the social, historical, mythological dramas selected by the expert committee."]
+        },
+        {
+            "tag": "NewDramaProductionsSchemeEligibility",
+            "patterns": ["Eligibility of New Drama Productions Scheme"],
+            "responses": ["The dramas should reflect the essence of Tamil art forms, culture, civilization, tradition, society, and history. The drama should not have been staged in advance."]
+        },
+        {
+            "tag": "KalaiIlamaniAwardScheme",
+            "patterns": ["Kalai Ilamani Award Scheme"],
+            "responses": ["The Scheme of Giving Awards to Eminent Artists - Kalai Ilamani Award, launched by the Art and Culture Department, Government of Tamil Nadu, aims to promote and preserve the culture of Tamil Nadu. The selected artists are awarded financial assistance of 4000 and certificates of appreciation. The scheme is being implemented in all Districts of Tamil Nadu."]
+        },
+        {
+            "tag": "KalaiIlamaniAwardSchemeBenefits",
+            "patterns": ["Benefits of Kalai Ilamani Award Scheme"],
+            "responses": ["Financial Assistance of 4000. Certificate of Appreciation. A shawl worth 500."]
+        },
+        {
+            "tag": "KalaiIlamaniAwardSchemeEligibility",
+            "patterns": ["Eligibility of Kalai Ilamani Award Scheme"],
+            "responses": ["The applicant should be an artist. The applicant's age should be 18 years and below."]
+        },
+        {
+            "tag": "KalaiSudarmaniAwardScheme",
+            "patterns": ["Kalai Sudarmani Award Scheme"],
+            "responses": ["The Scheme of Giving Awards to Eminent Artists - Kalai Sudarmani Award, launched by the Art and Culture Department, Government of Tamil Nadu, aims to promote and preserve the culture of Tamil Nadu. The selected artists are awarded financial assistance of 10000, a Certificate of Appreciation, and a shawl worth 500. 5 eminent artists are awarded every year."]
+        },
+        {
+            "tag": "KalaiSudarmaniAwardSchemeBenefits",
+            "patterns": ["Benefits of Kalai Sudarmani Award Scheme"],
+            "responses": ["Financial Assistance of 10000. Certificate of Appreciation. A shawl worth 500."]
+        },
+        {
+            "tag": "KalaiSudarmaniAwardSchemeEligibility",
+            "patterns": ["Eligibility of Kalai Sudarmani Award Scheme"],
+            "responses": ["The applicant should be an artist. The age of the applicant should be between 36 to 50 years."]
+        },
+        {
+            "tag": "GrantInAidArtExhibitionsScheme",
+            "patterns": ["Grant-In-Aid Art Exhibitions Scheme"],
+            "responses": ["The Scheme of Grant-In-Aid for Conduct of Art Exhibitions: Group Shows, launched by the Art and Culture Department, Government of Tamil Nadu, aims to encourage talented artists in the field of painting and sculpture by granting a sum of 50000 to groups of five artists for conducting 'Group Shows' art exhibitions. The applications are accepted offline in the prescribed form available at the Oviya Nunkalai Kuzhu."]
+        },
+        {
+            "tag": "GrantInAidArtExhibitionsSchemeBenefits",
+            "patterns": ["Benefits of Grant-In-Aid Art Exhibitions Scheme"],
+            "responses": ["Financial Assistance of 50000."]
+        },
+        {
+            "tag": "GrantInAidArtExhibitionsSchemeEligibility",
+            "patterns": ["Eligibility of Grant-In-Aid Art Exhibitions Scheme"],
+            "responses": ["The applicant should be a group of artists. The artists should be natives of Tamil Nadu by continuous residence for not less than 5 years. The artists should have continuous involvement in their field of painting and sculpture. The artists should possess an adequate number of artworks for the conduct of their show. Participation in National or State level Art Exhibitions and Artists Camps will be considered as an additional qualification."]
+        },
+        {
+            "tag": "TraditionalArtistsScheme",
+            "patterns": ["Traditional Artists Scheme"],
+            "responses": ["The Scheme for Giving Awards to Traditional Artists, launched by the Art and Culture Department, Government of Tamil Nadu, awards participants whose works are adjudged outstanding among the entries at the State-level Traditional Art Exhibition conducted by the Kuzhu. The awarded works are put on display for public view in the exhibition. The applications are accepted offline in the prescribed form available at the Oviya Nunkalai Kuzhu."]
+        },
+        {
+            "tag": "TraditionalArtistsSchemeBenefits",
+            "patterns": ["Benefits of Traditional Artists Scheme"],
+            "responses": ["Prize Money of 5000 per artist is given to 10 artists."]
+        },
+        {
+            "tag": "TraditionalArtistsSchemeEligibility",
+            "patterns": ["Eligibility of Traditional Artists Scheme"],
+            "responses": ["The applicant should be an artist. The artist should be a native of Tamil Nadu by continuous residence for not less than 5 years. The artist should be in the field of creating artworks like Tanjore paintings, glass paintings, traditional paintings, wood carvings, metal sculptures, etc."]
+        },
+        {
+          "tag": "descFitterTraining",
+          "patterns": ["Fitter Training to Hearing Impaired Persons"],
+          "responses": ["The scheme Fitter Training to Hearing Impaired Persons was launched by the Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu. The scheme aims to give fitter training to the hearing-impaired candidates at the ITI, Guindy for two years and a stipend of Rs.300/- per month. The applications are accepted offline in the prescribed form available at the District Differently Abled Welfare Office."]
+        },
+        {
+          "tag": "eligibilityFitterTraining",
+          "patterns": ["Eligibility of Fitter Training to Hearing Impaired Persons"],
+          "responses": ["The applicant should be a hearing-impaired person. The applicant should pass the 10th standard. The applicant should be between 18 and 25 years of age."]
+        },
+        {
+          "tag": "benefitFitterTraining",
+          "patterns": ["Benefits of Fitter Training to Hearing Impaired Persons"],
+          "responses": ["Fitter training is given to the hearing-impaired candidates at the ITI, Guindy for 2 years. A stipend of Rs.300/- per month is given to the trainees."]
+        }      
+    ]
+  }
+  
