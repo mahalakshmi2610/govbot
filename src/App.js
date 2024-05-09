@@ -1,43 +1,26 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+//import logo from './logo.svg';
+import './App.css';
+import Header from './Header';
+import Home from './Home';
+import Register from './Register';
+import Login from './Login';
+import Menubot from './MenuBot';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-const App = () => {
-  const [loggedIn, setLoggedIn] = useState(false);
-
-  useEffect(() => {
-    // Check session status when the app loads
-    axios.get('http://localhost:5000/session', { withCredentials: true })
-      .then(res => {
-        setLoggedIn(res.data.loggedIn);
-      });
-  }, []);
-
-  const handleLogin = () => {
-    // Login logic
-    axios.post('http://localhost:5000/login', { username: 'example_user', password: 'example_password' }, { withCredentials: true })
-      .then(res => {
-        setLoggedIn(true);
-      });
-  };
-
-  const handleLogout = () => {
-    // Logout logic
-    axios.post('http://localhost:5000/logout', {}, { withCredentials: true })
-      .then(res => {
-        setLoggedIn(false);
-      });
-  };
-
+function App() {
   return (
-    <div>
-      {loggedIn ? (
-        <button onClick={handleLogout}>Logout</button>
-      ) : (
-        <button onClick={handleLogin}>Login</button>
-      )}
-      {loggedIn ? <p>Welcome, example_user!</p> : <p>Please log in.</p>}
+    <Router>
+      <div className='container'>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/register" element={<Register/>} />
+        <Route path="/menubot" element={<Menubot/>} />
+      </Routes>
     </div>
+    </Router>
   );
-};
+}
 
 export default App;

@@ -16,17 +16,22 @@ $password = isset($data->pass) ? $data->pass : null;
 $con = mysqli_connect("localhost:3306", "root", "", "react-register");
 
 if ($username && $password) {
+    
     $query = "SELECT * FROM user WHERE username='$username'";
     $result = mysqli_query($con, $query);
 
     if (mysqli_num_rows($result) > 0) {
         $user = mysqli_fetch_assoc($result);
         // $storedHashedPassword = $user['password'];
-      
+        
         if ($user['password'] === $password) { // Check password as plain text
-            $_SESSION['username'] = $username;
-            $_SESSION['isLoggedIn'] = true;
+            $_SESSION['userid'] = $user['uid'];
+            if(isset($_SESSION['userid'])) {
+                window.location.href='/menubot'
+            }
+            // $_SESSION['isLoggedIn'] = true;
             $response['status'] = 'success';
+            // $response['status'] = $_SESSION['userid'];
             echo json_encode($response); // Output only the JSON response
         } else {
             $response['status'] = 'error';
