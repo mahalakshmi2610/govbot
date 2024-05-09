@@ -86,17 +86,23 @@ const Menubot = () => {
 
   return (
     <div>
-      <h1>Menu Based Chatbot</h1>
+      {/* <h1>Menu Based Chatbot</h1> */}
+      
       {}
+      <div className='chatbot'>
       <div>
+        <p id="extra">Here are the list of categories of government schemes available. Select any one</p>
+      </div>
+      <div className='flexdisp'>
+        {/* <p id="extra">Here are the list of categories of government schemes available. Select any one</p> */}
         {options.map((option, index) => (
           <button key={index} onClick={() => handleOptionSelect(option)}>{option}</button>
         ))}
       </div>
       {}
-      <div>
+      <div className='flexdisp'>
         
-          <div className={messages.type}>
+          <div id="flexend" className={messages.type}>
             {messages.map((m, index) => (
           <button key={index} onClick={() => handleOptionSelect(m)}>{m}</button>
         ))}
@@ -108,7 +114,7 @@ const Menubot = () => {
       <div>
         {currentQuestionIndex === 1 && (
             <div>
-                <div>
+                <div id="extra">
                     {msg}
                 </div>
         </div>
@@ -118,10 +124,10 @@ const Menubot = () => {
         <div>
         {currentQuestionIndex>= 2  && (
         <div>
-            <div>
+            <div id="extra">
                 {msg}
             </div>
-            {flag && (<div>
+            {flag && (<div className='flexdisp'>
                 <button onClick={() => handleOptionSelect("Eligibility of " + scheme)}>Eligibility</button>
                 
             </div>)}
@@ -134,10 +140,10 @@ const Menubot = () => {
       <div>
       {currentQuestionIndex >= 3 && (
         <div>
-            <div>
+            <div id="extra">
                 {eligibility}
             </div>
-            <div>
+            <div className='flexdisp'>
                 <button onClick={() => handleOptionSelect("Benefits of " + scheme)}>Benefits</button>
             </div>
       </div>
@@ -148,11 +154,11 @@ const Menubot = () => {
       <div>
       {currentQuestionIndex >= 4 && (
         <div>
-            <div>
+            <div id="extra">
                 {benefits}
             </div>
-            <div>
-              <p>Do you want to know about other schemes?</p>
+            <div className='flexdisp'>
+              <p id="extra1">Do you want to know about other schemes?</p>
                 <button onClick={() => handleOptionSelect("yes")}>Yes</button>
                 <button onClick={() => handleOptionSelect("no")}>No</button>
             </div>
@@ -161,10 +167,11 @@ const Menubot = () => {
       </div>
       <div>
         {flag1 && (
-          <div>
+          <div id="extra">
             {thank}
             </div>
         )}
+      </div>
       </div>
     </div>
   );

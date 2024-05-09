@@ -4,6 +4,11 @@
   box-sizing: border-box; /* Include padding and borders in the element's total width and height */
 }
 
+#heading{
+  font-size: 24px;
+  font-weight: bold;
+  color: #308e30;
+}
 .nav-div {
   /* background: linear-gradient(135deg, #ff9933, #ff9e3d 33.33%, #fff 33.33%, #fff 66.66%, #138808 66.66%); */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -11,6 +16,14 @@
   border-radius: 5px;
 }
 
+.MyNavbar {
+  display: flex;
+  justify-content: flex-end;
+}
+#headd{
+  /* display: flex; */
+  margin-right: 500px;
+}
 #navbarText {
   color: rgb(0, 0, 0);
   font-size: 21px;
@@ -109,4 +122,81 @@ body {
   color: red;
   font-size: 14px;
   margin-top: 5px;
+}
+
+.chatbot{
+  width:80%;
+  margin: 0 auto;
+  /* background-image: url('bg.avif'); */
+  /* border: solid black 1px; */
+}
+.flexdisp{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+#flexend {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+button {
+  margin: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 3px solid #F5761A
+  ;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: #F5761A
+  ;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+
+button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #F5761A
+  ;
+  z-index: -1;
+}
+
+button:hover, button:focus {
+  color: white;
+}
+
+button:hover:before, button:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+#extra{
+  background-color: #e5fdda;
+  color:green;
+  font-size: 24px;
+}
+#extra1{
+  margin: 4px;
+  color:green;
+  font-size: 24px;
 }
